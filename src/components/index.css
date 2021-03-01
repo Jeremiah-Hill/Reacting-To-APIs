@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-rows: 70px auto;
+    grid-template-columns: 40% auto;
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1 / span 2;
+  }
+  
